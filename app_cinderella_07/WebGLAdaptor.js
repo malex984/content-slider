@@ -245,9 +245,8 @@ function onWindowResize( event ) {
     
 	canvaswebgl.width = window.innerWidth;
 	canvaswebgl.height = window.innerHeight;
-	canvaswebgl.width = 1170/2;
-	canvaswebgl.height = 1170/2;
-                
+	canvaswebgl.width = 1030/2; canvaswebgl.height = 1030/2;
+
 	parameters.screenWidth = canvaswebgl.width;
 	parameters.screenHeight = canvaswebgl.height;
                 

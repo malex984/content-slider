@@ -1537,7 +1537,7 @@ symannot=false;
   var ydiff=1.3;
      (function(){
         var uid = 'app_cinderella_07_iOrnament_' + new Date().getTime() + '_' + Math.floor((Math.random() * 100) + 1);
-        document.write( "<canvas id=\"" + uid + "\" width=\"1560\" height=\"1170\"></canvas>" );
+        document.write( "<canvas id=\"" + uid + "\" width=\"1920\" height=\"1030\"></canvas>" );
 
             var cdy07 = createCindy({
                 scripts: "app_cinderella_07_cs*",

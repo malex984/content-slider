@@ -262,7 +262,7 @@
                 </script>
 
                 <div class="available_apps">
-                    Available applets:
+<!-- Available applets: -->
 <?php
                     $tab = '    ';
                     $ind7n = str_repeat( $tab, 5 );

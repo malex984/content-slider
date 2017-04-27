@@ -100,7 +100,7 @@ body{
     position: absolute;
     left: 0px;
     top: 0px;
-    background-color: #ccc;
+    background-color: black;
 }
 
 em {
@@ -117,12 +117,12 @@ em {
 .app {
     position: relative;
     overflow: hidden;
-    height: 1170px;
-    width: 1560px;
+    height: 1030px;
+    width: 100%;
     color: white;
     /*background-color: var( --fg-color );*/
     background-color: black;
-    margin: 10px;
+    margin: 0px;
 }
 
 .app_name, .app_description, .app_credits {
@@ -130,8 +130,16 @@ em {
 }
 
 .available_apps {
+    width: 100%;
+    margin: 1px;
+    text-align: center;
+    font-size: 30px;
+    line-height:40px;
+    padding: 1px 1px 1px 1px;
+    background-color: #111;
+    color: blue;
+/*    z-index: 10000; */
     position: relative;
-    margin: 10px;
 }
 
 .reload_button {

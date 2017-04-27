@@ -37,8 +37,8 @@ $heartbeat_respawn_delay = 10;
 $server_host = 'localhost';
 $server_port = 8081;
 $content_slider_url = 'http://localhost:8081/index.php';
-$web_browser_cmd = "electron --set-base-background-color=0xFF000000 '".__DIR__."/electron-app' -l {$content_slider_url} > /dev/null 2>&1";
-$timestamp_file = 'timestamp';
+$web_browser_cmd = "/opt/browser.sh --set-base-background-color=0x00000000 -l {$content_slider_url} > /dev/null 2>&1";
+$timestamp_file = '/var/tmp/timestamp.content-slider';
 
 // which page to use for the animation in the background (runs in an iframe)
 // currently available: bg_webgl.html, bg_svg.html, bg_plain.html

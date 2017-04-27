@@ -103,7 +103,7 @@ resume():=(
  <script type="text/javascript">
     (function(){
         var uid = 'app_cinderella_B3_CSCanvas_' + new Date().getTime() + '_' + Math.floor((Math.random() * 100) + 1);
-        document.write( "<canvas id=\"" + uid + "\" width=\"1560\" height=\"1170\"></canvas>" );
+        document.write( "<canvas id=\"" + uid + "\" width=\"1920\" height=\"1030\"></canvas>" );
 
         var cdy04 = createCindy({
         scripts: "app_cinderella_04_cs*",
